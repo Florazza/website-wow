@@ -1,26 +1,222 @@
 body {
-    background-color: rgb(26, 39, 52);
+  background-color: #121212;
+  color: chocolate;
+  
+}
+
+/* logo!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1 */
+.logo-jee {
+  min-height: 36vh;          
+  display: flex;
+  justify-content: center;    
+  align-items: center;     
+}
+
+.logo {
+  position: relative;
+  display: inline-block;
+  
+}
+
+#gigi {
+    display: block;
+    width: 250px;
 }
 
 
-@font-face {
-    font-family: 'Minecraft';
-    src: url(fonts/Minecraftia-Regular.ttf);
+/* image spin */
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spin {
+  animation: rotation 3s linear infinite;
+}
+/* end of logo */
+
+
+/* 'Flora' */
+.logo-text {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 8px;
+  font-size: 14px;
+  text-align: center;
+  font-size: 130%;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+/* 'junior programmer' */
+.logo-text2 {
+  position: absolute;
+  top: 115%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 8px;
+  font-size: 14px;
+  text-align: center;
 }
 
 
-h1 {
-    text-align: center;
-    font-size: 32px;
-    font-family: 'Minecraft', monospace;
-    padding: 10px;
-    color: white;
+/* ALL THINGS ON THE PORTFOLIO */
+#projects {
+  margin-left: 200;
+  padding: 0;
+  top: 50%;
+  left: 0;
+  font-size: 25px;
+  overflow: hidden;
+  display: inline-block;
+  position: absolute;
+  width: fit-content;
+  text-align: center;
+  list-style-type: none;
 }
 
-.twitter {
-    color: aquamarine;
+
+#workExperience {
+  top: 50%;
+  left: 40%;
+  position: absolute;
+  font-size: 25px;
+  text-align: center;
+  padding: 0;
+}
+#workExperience ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px 0; 
+}
+#workExperience li {
+    margin-bottom: 10px; 
+}
+
+
+#education {
+  top: 50%;
+  left: 70%;
+  position: absolute;
+  font-size: 25px;
+  text-align: center;
+  padding: 0;
+}
+#education ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px 0; 
+}
+#education li {
+    margin-bottom: 10px; 
+}
+
+#reviews {
+  top: 110%;
+  left: 27%;
+  position: absolute;
+  font-size: 25px;
+  text-align: center;
+  padding: 0;
+}
+#reviews blockquote {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px 0; 
+}
+
+#copyright {
+    left: 0;
+    line-height: 200px;
+    margin-top: 1150px;
     position: relative;
-    bottom: 87;
-    left: 50;
-    font-size: 40;
+    text-align: center;
+    width: 100%;
+}
+/* ---------------------------------------------- */
+
+
+/* NAVIGATION BAR!!!!!!!!!!!!!!!! */
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #121212;
+}
+
+
+/* fixes the nav bar to the top */
+#navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #121212;
+}
+
+#navbar li {
+    float: left;
+    background-color: #121212;
+}
+
+#navbar li a {
+    display: block;
+    color: orange;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #121212;
+}
+
+#navbar li a:hover {
+    background-color: #222222;
+}
+
+#navbar li a:active {
+    background-color: chocolate;
+}
+
+ /* adds a line to outline the buttons :=) */
+#navbar li {
+  float: left;
+  border-right: 1px solid #565244;
+}
+
+#navbar li:last-child {
+  border-right: none;
+} 
+
+#navbar p {
+    text-align: left;
+}
+
+ /* da letter f */
+#letterF {
+    position: fixed;
+    top: 15px;
+    right: 30px;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+#letterF:visited {
+    color: orange;
+    text-decoration: none;
+}
+ /* END OF NAVIGATION BAR */
+
+.reviews {
+  display: flex;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
 }
