@@ -237,3 +237,6 @@ body {
   display: flex;
   flex-direction: column;
 }
+#contactForm {
+  padding-top: 5%;
+}
