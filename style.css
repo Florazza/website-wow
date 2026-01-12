@@ -221,7 +221,16 @@ body {
   display: flex;
 }
 
-.projects {
+#projects {
   display: flex;
   flex-direction: column;
 }
+#education {
+  display: flex;
+  flex-direction: column;
+}
+#workExperience {
+  display: flex;
+  flex-direction: column;
+}
+
