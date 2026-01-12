@@ -3,10 +3,7 @@ body {
   color: chocolate;
 }
 
-@font-face {
-    font-family: 'Minecraft';
-    src: url(fonts/Minecraftia-Regular.ttf);
-}
+
 /* logo!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1 */
 .logo-jee {
   min-height: 36vh;          
