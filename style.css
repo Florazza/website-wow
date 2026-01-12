@@ -52,9 +52,7 @@ body {
   margin-top: 8px;
   font-size: 14px;
   text-align: center;
-  font-size: 130%;
-  text-decoration: underline;
-  text-underline-offset: 10px;
+  font-size: 150%;
   font-family: 'Minecraft', monospace;
 }
 
@@ -73,7 +71,7 @@ body {
 
 /* ALL THINGS ON THE PORTFOLIO */
 #projects {
-  margin-left: 200;
+  margin-left: 175;
   padding: 0;
   top: 50%;
   left: 0;
@@ -90,7 +88,7 @@ body {
 
 #workExperience {
   top: 50%;
-  left: 40%;
+  left: 36%;
   position: absolute;
   font-size: 25px;
   text-align: center;
